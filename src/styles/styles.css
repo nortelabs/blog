@@ -463,7 +463,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-description {
-    font-size: 1rem;
+    font-size: 1.15rem;
     color: var(--text-medium);
     margin-bottom: 2rem;
     line-height: 1.6;
@@ -561,7 +561,7 @@ h1, h2, h3, h4, h5, h6 {
 .process-card p {
     color: var(--text-medium);
     line-height: 1.6;
-    font-size: 0.95rem;
+    font-size: 1.1rem;
 }
 
 .feature-list {

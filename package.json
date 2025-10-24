@@ -1,5 +1,41 @@
 {
   "dependencies": {
-    "@vercel/analytics": "^1.5.0"
-  }
+    "@tamagui/animations-react-native": "^1.135.4",
+    "@tamagui/config": "^1.135.4",
+    "@tamagui/core": "^1.135.4",
+    "@tamagui/font-inter": "^1.135.4",
+    "@tamagui/theme-base": "^1.135.4",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vercel/analytics": "^1.5.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-native-web": "^0.21.2",
+    "tamagui": "^1.135.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12"
+  },
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nortelabs/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/nortelabs/blog/issues"
+  },
+  "homepage": "https://github.com/nortelabs/blog#readme"
 }
