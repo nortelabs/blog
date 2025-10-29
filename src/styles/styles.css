@@ -865,6 +865,187 @@ h1, h2, h3, h4, h5, h6 {
     color: rgba(255, 255, 255, 0.5);
 }
 
+/* Resources Page Styles */
+.resources-hero {
+    background: linear-gradient(135deg, var(--background-light) 0%, var(--background) 100%);
+    padding: 8rem 0 6rem;
+    text-align: center;
+}
+
+.resources-hero h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: var(--text-dark);
+}
+
+.resources-hero p {
+    font-size: 1.5rem;
+    color: var(--text-medium);
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    margin: 4rem 0;
+}
+
+.blog-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.blog-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+}
+
+.blog-image {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+    height: 220px;
+    position: relative;
+}
+
+.blog-category {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.blog-content {
+    padding: 2rem;
+}
+
+.blog-meta {
+    display: flex;
+    gap: 1rem;
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.blog-card h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: var(--text-dark);
+    line-height: 1.4;
+}
+
+.blog-excerpt {
+    color: var(--text-medium);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.read-more {
+    color: var(--primary-color);
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: gap 0.3s ease;
+}
+
+.read-more:hover {
+    gap: 0.75rem;
+}
+
+.tools-section {
+    background: var(--background-light);
+    padding: 5rem 0;
+    margin: 4rem 0;
+    border-radius: 24px;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.tool-card {
+    background: white;
+    padding: 3rem;
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+.tool-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.tool-card h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: var(--text-dark);
+}
+
+.tool-card p {
+    color: var(--text-medium);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.comparisons-section {
+    padding: 5rem 0;
+}
+
+.comparison-table {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    margin-top: 3rem;
+}
+
+.table-header {
+    background: var(--background-light);
+    padding: 1.5rem 2rem;
+    font-weight: 400;
+    color: var(--text-dark);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.table-row {
+    padding: 1.5rem 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 1rem;
+    border-top: 1px solid var(--border-color);
+    align-items: center;
+    transition: background 0.2s ease;
+}
+
+.table-row:hover {
+    background: var(--background-light);
+}
+
 /* Utility Classes */
 .text-center {
     text-align: center;
@@ -897,6 +1078,14 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1024px) {
     .services-grid {
         grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .tools-grid {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -1014,5 +1203,32 @@ h1, h2, h3, h4, h5, h6 {
 
     .footer-links {
         grid-template-columns: 1fr;
+    }
+
+    .resources-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .resources-hero p {
+        font-size: 1.25rem;
+    }
+    
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .tools-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .table-header,
+    .table-row {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    
+    .table-header span:not(:first-child),
+    .table-row span:not(:first-child) {
+        padding-left: 1rem;
     }
 }

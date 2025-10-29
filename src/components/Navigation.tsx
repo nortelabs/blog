@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export const Navigation: React.FC = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
@@ -7,7 +8,7 @@ export const Navigation: React.FC = () => {
     <nav className="navbar">
       <div className="container">
         <div className="nav-wrapper">
-          <a href="index.html" className="logo">Norte Labs</a>
+          <Link to="/" className="logo">Norte Labs</Link>
           <div className="nav-menu">
             <div className="nav-dropdown">
               <a 
@@ -28,7 +29,7 @@ export const Navigation: React.FC = () => {
               )}
             </div>
             <a href="healthcare.html" className="nav-link">Healthcare Industry</a>
-            <a href="resources.html" className="nav-link">Resources</a>
+            <Link to="/resources" className="nav-link">Resources</Link>
             <a href="https://calendar.app.google/5nHu9ma7e495gmhz7" target="_blank" className="nav-link nav-cta">
               Book a Quick Consultation
             </a>

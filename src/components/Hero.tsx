@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Hero: React.FC = () => {
   return (
@@ -8,11 +9,11 @@ export const Hero: React.FC = () => {
         <div className="hero-cards">
           <div className="hero-card">
             <h2>We build AI solutions for nonprofits, businesses, and organizations of all sizes.</h2>
-            <a href="services.html" className="btn btn-primary">View our services →</a>
+            <a href="#services" className="btn btn-primary">View our services →</a>
           </div>
           <div className="hero-card">
             <h2>We empower organizations with cutting-edge AI technology to maximize their impact</h2>
-            <a href="resources.html" className="btn btn-primary">Learn about AI solutions →</a>
+            <Link to="/resources" className="btn btn-primary">Learn about AI solutions →</Link>
           </div>
         </div>
       </div>
