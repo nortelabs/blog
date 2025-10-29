@@ -20,10 +20,10 @@ export const Navigation: React.FC = () => {
               </a>
               {isDropdownOpen && (
                 <div className="dropdown-content">
-                  <a href="#clinical-docs">Document Automation</a>
-                  <a href="#patient-engagement">Data Analytics & Insights</a>
-                  <a href="#ai-research">Research Assistant</a>
-                  <a href="#predictive-analytics">Predictive Analytics & Insights</a>
+                  <a href="#services">Document Automation</a>
+                  <a href="#services">Data Analytics & Insights</a>
+                  <a href="#services">Research Assistant</a>
+                  <a href="#services">Predictive Analytics & Insights</a>
                 </div>
               )}
             </div>
