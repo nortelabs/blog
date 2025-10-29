@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear()
@@ -13,7 +14,7 @@ export const Footer: React.FC = () => {
           <div className="footer-links">
             <a href="https://linkedin.com/company/norte-labs" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="mailto:mmoise@nortelabs.org">Email Us</a>
-            <a href="resources.html">Resources</a>
+            <Link to="/resources">Resources</Link>
           </div>
         </div>
         <div className="footer-bottom">

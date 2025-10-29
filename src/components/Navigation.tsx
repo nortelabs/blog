@@ -28,7 +28,7 @@ export const Navigation: React.FC = () => {
                 </div>
               )}
             </div>
-            <a href="healthcare.html" className="nav-link">Healthcare Industry</a>
+            <Link to="/healthcare" className="nav-link">Healthcare Industry</Link>
             <Link to="/resources" className="nav-link">Resources</Link>
             <a href="https://calendar.app.google/5nHu9ma7e495gmhz7" target="_blank" className="nav-link nav-cta">
               Book a Quick Consultation

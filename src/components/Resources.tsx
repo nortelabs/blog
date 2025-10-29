@@ -30,7 +30,7 @@ export const Resources: React.FC = () => {
                   </div>
                   <h3>Implementing Computer Vision AI in Production</h3>
                   <p className="blog-excerpt">A comprehensive guide to deploying computer vision AI for real-world applications, covering model deployment, performance optimization, and system integration.</p>
-                  <a href="#" className="read-more">Read more →</a>
+                  <span className="read-more" style={{ cursor: 'default', opacity: 0.7 }}>Coming soon →</span>
                 </div>
               </div>
 
@@ -45,7 +45,7 @@ export const Resources: React.FC = () => {
                   </div>
                   <h3>Automating Business Processes with AI</h3>
                   <p className="blog-excerpt">How AI-powered automation is saving teams 2-3 hours daily and improving productivity across various business functions.</p>
-                  <a href="#" className="read-more">Read more →</a>
+                  <span className="read-more" style={{ cursor: 'default', opacity: 0.7 }}>Coming soon →</span>
                 </div>
               </div>
 
@@ -60,7 +60,7 @@ export const Resources: React.FC = () => {
                   </div>
                   <h3>Data Privacy and Security for AI Systems</h3>
                   <p className="blog-excerpt">Essential guidelines for building secure AI solutions, from data encryption to access controls and audit trails.</p>
-                  <a href="#" className="read-more">Read more →</a>
+                  <span className="read-more" style={{ cursor: 'default', opacity: 0.7 }}>Coming soon →</span>
                 </div>
               </div>
 
@@ -75,7 +75,7 @@ export const Resources: React.FC = () => {
                   </div>
                   <h3>Building Predictive Models for Business Analytics</h3>
                   <p className="blog-excerpt">Step-by-step tutorial on creating machine learning models for business predictions with practical examples and real-world applications.</p>
-                  <a href="#" className="read-more">Read more →</a>
+                  <span className="read-more" style={{ cursor: 'default', opacity: 0.7 }}>Coming soon →</span>
                 </div>
               </div>
 
@@ -90,7 +90,7 @@ export const Resources: React.FC = () => {
                   </div>
                   <h3>Improving Customer Retention by 42%</h3>
                   <p className="blog-excerpt">How we helped a major enterprise implement AI-powered customer analytics to dramatically reduce churn and improve customer satisfaction.</p>
-                  <a href="#" className="read-more">Read more →</a>
+                  <span className="read-more" style={{ cursor: 'default', opacity: 0.7 }}>Coming soon →</span>
                 </div>
               </div>
 
@@ -105,7 +105,7 @@ export const Resources: React.FC = () => {
                   </div>
                   <h3>Enterprise System Integration Strategies for AI</h3>
                   <p className="blog-excerpt">Everything you need to know about integrating AI systems with existing enterprise platforms and databases using modern APIs and standards.</p>
-                  <a href="#" className="read-more">Read more →</a>
+                  <span className="read-more" style={{ cursor: 'default', opacity: 0.7 }}>Coming soon →</span>
                 </div>
               </div>
             </div>
@@ -123,28 +123,28 @@ export const Resources: React.FC = () => {
                 <div className="tool-icon">🔧</div>
                 <h3>ROI Calculator for AI Implementation</h3>
                 <p>Calculate the potential return on investment for implementing AI in your organization. Input your metrics to see projected savings and efficiency gains.</p>
-                <a href="#" className="btn btn-primary">Try Tool →</a>
+                <span className="btn btn-primary" style={{ cursor: 'default', opacity: 0.7, display: 'inline-block' }}>Coming soon →</span>
               </div>
 
               <div className="tool-card">
                 <div className="tool-icon">📊</div>
                 <h3>Data Privacy Compliance Checker</h3>
                 <p>Assess your AI system's data privacy compliance readiness with our comprehensive checklist and automated validation tools.</p>
-                <a href="#" className="btn btn-primary">Try Tool →</a>
+                <span className="btn btn-primary" style={{ cursor: 'default', opacity: 0.7, display: 'inline-block' }}>Coming soon →</span>
               </div>
 
               <div className="tool-card">
                 <div className="tool-icon">🎨</div>
                 <h3>Dataset Annotator</h3>
                 <p>Label and annotate images and data for training AI models with built-in quality control and secure storage.</p>
-                <a href="#" className="btn btn-primary">Try Tool →</a>
+                <span className="btn btn-primary" style={{ cursor: 'default', opacity: 0.7, display: 'inline-block' }}>Coming soon →</span>
               </div>
 
               <div className="tool-card">
                 <div className="tool-icon">⚡</div>
                 <h3>AI Integration Planner</h3>
                 <p>Plan your AI implementation timeline and identify integration requirements for your specific systems and workflows.</p>
-                <a href="#" className="btn btn-primary">Try Tool →</a>
+                <span className="btn btn-primary" style={{ cursor: 'default', opacity: 0.7, display: 'inline-block' }}>Coming soon →</span>
               </div>
             </div>
           </div>

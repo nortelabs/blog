@@ -4,6 +4,7 @@ import { Hero } from './components/Hero'
 import { Services } from './components/Services'
 import { Process } from './components/Process'
 import { Resources } from './components/Resources'
+import { Healthcare } from './components/Healthcare'
 import { Footer } from './components/Footer'
 import './styles/global.css'
 
@@ -21,6 +22,7 @@ function App() {
             </>
           } />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/healthcare" element={<Healthcare />} />
         </Routes>
         <Footer />
       </div>

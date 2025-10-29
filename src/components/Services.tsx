@@ -5,24 +5,28 @@ export const Services: React.FC = () => {
     {
       title: 'Document Automation',
       description: 'Automated document processing, data extraction, and content generation that saves organizations hours daily, reduces manual work, and ensures comprehensive record-keeping.',
-      link: '#services',
     },
     {
       title: 'Data Analytics & Insights',
       description: 'Analyze organizational data to identify patterns, trends, and opportunities for improvement in program delivery, donor engagement, and operational efficiency.',
-      link: '#services',
     },
     {
       title: 'AI Research Assistant',
       description: 'Accelerate research and decision-making with AI that answers questions, summarizes documents, and provides insights from industry reports, grant opportunities, and best practices.',
-      link: '#services',
     },
     {
       title: 'Predictive Analytics',
       description: 'Machine learning models that predict donor behavior, program success rates, and resource needs to enable proactive planning and optimize organizational impact.',
-      link: '#services',
     },
   ]
+
+  const handleLearnMore = () => {
+    // Scroll to the services section
+    const servicesElement = document.getElementById('services')
+    if (servicesElement) {
+      servicesElement.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
 
   return (
     <section className="main-content">
@@ -37,7 +41,7 @@ export const Services: React.FC = () => {
               <div key={index} className="service-card">
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
-                <a href={service.link} className="service-link">Learn more →</a>
+                <button onClick={handleLearnMore} className="service-link" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, font: 'inherit' }}>Learn more →</button>
               </div>
             ))}
           </div>
